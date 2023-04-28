@@ -9,7 +9,7 @@ export default function MenuLink({children, to}) {
         `${styles.link}
         ${isActive ? styles.linkDestacado : ""}
         `
-       } 
+      } 
        to={to}
        end
        >  
