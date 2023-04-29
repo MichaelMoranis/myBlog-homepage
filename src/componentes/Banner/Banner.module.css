@@ -1,6 +1,6 @@
 .banner {
     padding: 3rem 7.5rem 6.25rem;
-    background-color: var(--azul-escuro);
+    background-color: #3a0ca3;
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -28,7 +28,7 @@
 .imagens > .minhaFoto {
     position: absolute;
     right: 4em;
-    bottom: 3em;
+    bottom: 2em;
     height: 22vw;
     width: 22vw;
     border-radius: 50%;
@@ -37,7 +37,7 @@
 .imagens > .circuloColorido {
     position: absolute;
     right: 7vw;
-    bottom: 2.2vw;
+    bottom: -1.2vw;
     width: 25vw;
 }
 
