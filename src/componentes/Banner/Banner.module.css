@@ -27,9 +27,10 @@
 
 .imagens > .minhaFoto {
     position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 18vw;
+    right: 4em;
+    bottom: 3em;
+    height: 22vw;
+    width: 22vw;
     border-radius: 50%;
 }
 
