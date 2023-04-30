@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function SobreMim() {
   return (
-    <div>sobre mim</div>
+      <h2>michael esta aqui</h2>
   )
 }

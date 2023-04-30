@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### uses cases OutLet react router dom 
+
+The OutLet component of React Router Dom is used as a placeholder to render the content corresponding to the current route, allowing developers to create single-pages-applications with URL-based navigation in a more easy and intuitive way.
