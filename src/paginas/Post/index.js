@@ -13,7 +13,7 @@ export default function Post() {
         fotoCapa={`/assets/posts/${post.id}/capa.jpeg`}
         titulo={post.titulo}
        >
-        texto...
+        {post.texto}
        </PostModelo>
     )
 }
