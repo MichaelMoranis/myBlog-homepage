@@ -1,7 +1,10 @@
+import BotaoPrincipal from "componentes/BotaoPrincipal";
 import styles from "./Pagina404.module.css";
 import erro404 from "assets/erro_404.png";
+import { useNavigate } from "react-router-dom";
 
 export default function Pagina404() {
+    const navegar = useNavigate();
   return (
     <>
       <div className={styles.conteudoContainer}>
@@ -14,8 +17,13 @@ export default function Pagina404() {
           Aguarde uns instantes e recarregue a pagina, ou volte para a pagina
           inicial
         </p>
-        <div className={styles.botaoContainer}>
-          <button>voltar</button>
+        <div 
+          className={styles.botaoContainer}
+          onClick={() => navegar(-1)}
+        >
+          <BotaoPrincipal tamanho="lg">
+              Voltar
+          </BotaoPrincipal>
         </div>
         <img
           className={styles.imagemCachorro}
@@ -23,9 +31,7 @@ export default function Pagina404() {
           alt="cachorro sinalizando pagina errada vestido como humano"
         />
       </div>
-      <div className={styles.espacoEmBranco}>
-
-      </div>
+      <div className={styles.espacoEmBranco}></div>
     </>
   );
 }
