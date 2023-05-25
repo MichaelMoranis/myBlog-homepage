@@ -73,6 +73,7 @@
     .banner {
         padding: 1rem 1rem;
         display: flex;
+        height: 27rem;
     }
 
     .titulo {
