@@ -28,7 +28,7 @@
 .imagens > .minhaFoto {
     position: absolute;
     right: 4em;
-    bottom: -1em;
+    bottom: 1em;
     height: 22vw;
     width: 22vw;
     border-radius: 50%;
@@ -36,12 +36,12 @@
 
 .imagens > .circuloColorido {
     position: absolute;
-    right: 7vw;
+    right: 3vw;
     bottom: -1.2vw;
     width: 25vw;
 }
 
-@media (max-width: 1100px) {    
+/* @media (max-width: 1021px) {    
     .banner {
         padding: 3.5rem 1.5rem;
     }
@@ -67,16 +67,16 @@
         right: 10vw;
         width: 35vw;
     }
-}
+} */
 
-@media (max-width: 744px) {
+@media (max-width: 997px) {
     .banner {
-        padding: 2rem 1rem;
-        display: block;
+        padding: 1rem 1rem;
+        display: flex;
     }
 
     .titulo {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .paragrafo {
@@ -84,7 +84,8 @@
     }
 
     .imagens {
-        height: 307px;
+        /* height: 307px; */
+        text-align: center;
     }
 
     .imagens > .minhaFoto, .imagens > .circuloColorido {
@@ -94,12 +95,14 @@
     }
 
     .imagens > .minhaFoto {
-        width: 170px;
-        transform: translate(5rem, 0px);
+        margin: auto;
+        display: none;
+        /* transform: translate(5rem, 0px); */
     }
 
     .imagens > .circuloColorido {
         width: 240px;
         transform: translate(-1.5rem, 0px);
+        display: none;
     }
 }

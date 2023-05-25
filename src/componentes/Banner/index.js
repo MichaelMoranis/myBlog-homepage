@@ -7,10 +7,10 @@ export default function Banner() {
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
                 <h2>
-                    sejam bem vindos ao meu blog
+                    Desenvolvedor FrontEnd
                 </h2>
                 <p className={styles.paragrafo}>
-                    Este sera o meu blog, meu projeto pessoal feito em parceria com alura atraves dos cursos!!
+                Gosto de criar produtos de front-end sólidos e escaláveis com ótimas experiências de usuário.
                 </p>
             </div>
             <div className={styles.imagens}>
