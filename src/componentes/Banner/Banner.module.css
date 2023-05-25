@@ -23,6 +23,7 @@
 .imagens {
     position: relative;
     height: 406px;
+    top: -1em;
 }
 
 .imagens > .minhaFoto {
