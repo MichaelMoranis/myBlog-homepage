@@ -8,7 +8,7 @@ export default function Menu() {
     <header className={styles.navegacaoHeader}>
         <MenuSocialMedia />
         <nav className={styles.navegacao}>
-            <MenuLink to="/">
+            <MenuLink  to="/" className={styles.navegacao}>
                 Inicio
             </MenuLink>
             <MenuLink to="/sobremim">

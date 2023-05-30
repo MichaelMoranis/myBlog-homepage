@@ -78,10 +78,14 @@
 
     .titulo {
         margin-bottom: 1rem;
+        font-size: 3rem;
+        margin: auto;
+        padding-bottom: 0;
     }
 
     .paragrafo {
         margin-bottom: 1rem;
+        font-size: 1.5rem;
     }
     .imagens {
         display: none;

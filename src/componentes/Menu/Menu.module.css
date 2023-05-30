@@ -14,7 +14,17 @@
     column-gap: 3rem;
 }
 
+
+
 @media (max-width: 744px) {
+    .navegacaoHeader {
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1em;
+        gap: 2rem;
+    }
     .navegacao {
         height: 72px;
     }
