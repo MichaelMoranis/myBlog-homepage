@@ -8,7 +8,7 @@ export default function SobreMim() {
   return (
     <PostModelo fotoCapa={fotoCapa} titulo="Sobre Mim">
       <h3 className={styles.subtitulo}>
-          Ola eu sou o Michael !!
+          Quem sou eu ?!
       </h3>
       <img 
         src={fotoSobreMim}
