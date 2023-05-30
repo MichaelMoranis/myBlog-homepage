@@ -20,3 +20,12 @@
 .botaoLer:hover {
     border: 3px solid var(--azul-escuro);
 }
+
+@media (max-width: 774px) {
+    .botaoPrincipal {
+        display: inline-block;
+        border-radius: 24px;
+        width: 250px;
+        font-weight: 300;
+    }
+}j

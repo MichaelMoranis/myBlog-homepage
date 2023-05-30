@@ -36,4 +36,24 @@
         padding: 0.6875rem 1.5rem;
         font-size: 1.375rem;
     }
+    .capa {
+        width: 100%;
+    }
+}
+
+@media (max-width: 774px) {
+    .post {
+        width: 336px;
+    }
+    .titulo {
+        font-weight: 600;
+    }
+    .botaoLer {
+        font-size: 1.375rem;
+        width: 2rem;
+    }
+    .capa {
+        width: 100%;
+        height: 10rem;
+    }
 }
