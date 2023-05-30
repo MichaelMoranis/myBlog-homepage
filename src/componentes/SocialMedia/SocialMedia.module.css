@@ -1,0 +1,9 @@
+.mediaContainer {
+ display: flex;
+ gap: 1em;
+} 
+
+.Link {
+ width: 32px;
+ height: 32px;
+}
