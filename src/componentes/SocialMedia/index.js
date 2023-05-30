@@ -14,7 +14,7 @@ function MenuSocialMedia() {
           </Link>
         </li>
         <li>
-          <Link to="https://instagram.com/michaelmoranis">
+          <Link to="https://instagram.com/michaelmoranis?igshid=MzNlNGNkZWQ4Mg==">
             <IoLogoInstagram className={styles.Link} />
           </Link>
         </li>
